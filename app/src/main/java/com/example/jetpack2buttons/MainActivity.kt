@@ -47,7 +47,8 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    inputMes();
+                    InputMes();
+                    Text(text = "HI")
                     //column();
                     //row();
                     //box();
@@ -59,7 +60,7 @@ class MainActivity : ComponentActivity() {
 }
 
 @Composable
-fun inputMes() {
+fun InputMes() {
     val state = remember {
         mutableStateOf("")
     }
@@ -132,6 +133,6 @@ fun GreetingPreview() {
 //    ) {
 //        Text(text = "Submit", fontSize = 12.sp)
 //    }
-    inputMes()
+    InputMes()
 
 }
