@@ -49,6 +49,8 @@ class MainActivity : ComponentActivity() {
                 ) {
                     InputMes();
                     Text(text = "HI")
+                    Text(text = "HI")
+                    Text(text = "HI")
                     //column();
                     //row();
                     //box();
